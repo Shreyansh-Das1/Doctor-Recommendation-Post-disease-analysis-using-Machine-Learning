@@ -8,51 +8,14 @@ import lombok.Getter;
 public class Doctor {
     private String name;
 
-    enum Spec {
-        ONCOLOGY,
-        PLASTIC_SURGERY,
-        RHEUMATOLOGY,
-        NEUROSURGERY,
-        PATHOLOGY,
-        GENERAL_SURGERY,
-        MICROBIOLOGY,
-        HEPATOLOGY,
-        HEMATOLOGY,
-        VASCULAR_SURGERY,
-        INFECTIOUS_DISEASE,
-        INTERVENTIONAL_CARDIOLOGY,
-        NEONATOLOGY,
-        CRITICAL_CARE,
-        REHABILITATION_MEDICINE,
-        THORACIC_SURGERY,
-        REPRODUCTIVE_MEDICINE,
-        PEDIATRIC_SURGERY,
-        GERIATRICS,
-        SPORTS_MEDICINE,
-        NUCLEAR_MEDICINE,
-        CARDIAC_SURGERY,
-        PEDIATRIC_ONCOLOGY,
-        TRAUMA_SURGERY,
-        PALLIATIVE_CARE,
-        ADDICTION_MEDICINE,
-        PEDIATRIC_CARDIOLOGY,
-        INTERVENTIONAL_RADIOLOGY,
-        MATERNAL_FETAL_MEDICINE,
-        PAIN_MANAGEMENT,
-        CLINICAL_PHARMACOLOGY,
-        BURN_SURGERY,
-        TRANSFUSION_MEDICINE;
-
-        @Column(name = "Specialty")
-        private String spec;
-
-        void Spec(String spec) {
-            this.spec = spec;
-        }
-    }
-    @Id @Column(unique = true, nullable = false, name="Ph Number")
-    String phno;
-    @Column(name="Highest Qualification")
-    String qualification;
+    @Column(name = "Specialty") private String spec;
+    @Id @Column(unique = true, nullable = false, name="Ph Number") private String phno;
+    @Column(name="Hospital") String hospital;
+    @Column(name="Highest Qualification") private String qualification;
+    @Column(name="Rating") private float rating;
+    @Column(name="Department") private String department;
+    @Column(name="locality") private String locality;
 }
+
+
 

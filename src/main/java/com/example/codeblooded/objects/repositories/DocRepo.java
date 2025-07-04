@@ -1,11 +1,13 @@
-package com.example.codeblooded.objects;
+package com.example.codeblooded.objects.repositories;
 
+import com.example.codeblooded.objects.Doctor;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
 public interface DocRepo extends JpaRepository<Doctor, String> {
-    Doctor findBySpec(String Spec);
+
     Doctor findByDepartment(String Department);
-    Doctor  findByLocation(String Location);
+    Doctor  findByLocality(String Location);
+    Doctor findByHospital(String Hospital);
 }
