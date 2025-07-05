@@ -1,17 +1,39 @@
-/*package com.example.codeblooded;
+package com.example.codeblooded;
 
-import com.example.codeblooded.objects.Disease;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.*;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.client.RestTemplate;
+import java.util.*;
 
 @RestController
 public class Controller {
 
-    @GetMapping("/diagnose")
-    public ResponseEntity<Disease>(boolean array[], String locality)
-    {
-        
+    @PostMapping("/diagnose")
+    public ResponseEntity<?> diagnose(@RequestBody Map<String, Object> payload) {
+        // Extract symptoms from payload (assume payload["symptoms"] is a map)
+        Map<String, Integer> symptoms = (Map<String, Integer>) payload.get("symptoms");
+        String locality = (String) payload.get("locality");
+
+        // You may use the locality for further processing or logging
+
+        // Prepare request for Python model API
+        RestTemplate restTemplate = new RestTemplate();
+        String pythonUrl = "http://localhost:5000/predict";
+
+        HttpHeaders headers = new HttpHeaders();
+        headers.setContentType(MediaType.APPLICATION_JSON);
+
+        Map<String, Object> pythonPayload = new HashMap<>();
+        pythonPayload.put("symptoms", symptoms);
+
+        HttpEntity<Map<String, Object>> request = new HttpEntity<>(pythonPayload, headers);
+
+        try {
+            ResponseEntity<Map> response = restTemplate.postForEntity(pythonUrl, request, Map.class);
+            return ResponseEntity.ok(response.getBody());
+        } catch (Exception e) {
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+                    .body(Collections.singletonMap("error", "Failed to connect to model endpoint: " + e.getMessage()));
+        }
     }
 }
-*/
