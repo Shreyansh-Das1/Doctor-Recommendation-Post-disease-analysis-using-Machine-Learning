@@ -1,0 +1,196 @@
+fever,headache,nausea,vomiting,fatigue,joint_pain,skin_rash,cough,weight_loss,yellow_eyes,disease,department
+1,0,1,0,1,0,0,1,1,0,Paralysis (brain hemorrhage),Neurology
+0,0,1,0,0,0,1,1,0,0,Paralysis (brain hemorrhage),Neurology
+0,0,1,0,1,0,1,1,0,0,Paralysis (brain hemorrhage),Neurology
+0,0,1,1,1,0,1,1,1,1,Paralysis (brain hemorrhage),Neurology
+1,0,1,0,1,0,0,0,1,1,Paralysis (brain hemorrhage),Neurology
+0,0,1,0,1,0,0,0,0,0,Paralysis (brain hemorrhage),Neurology
+0,1,1,1,0,0,0,1,0,0,Paralysis (brain hemorrhage),Neurology
+0,1,1,0,1,0,0,0,1,0,Paralysis (brain hemorrhage),Neurology
+0,0,1,1,1,0,0,1,0,0,Paralysis (brain hemorrhage),Neurology
+1,0,0,1,0,0,0,1,1,1,Hypertension,Cardiology
+1,0,0,1,0,0,0,1,1,1,Hypertension,Cardiology
+1,0,1,1,0,0,0,1,1,1,Hypertension,Cardiology
+0,0,0,1,0,0,1,1,1,1,Hypertension,Cardiology
+0,1,1,1,0,1,0,1,0,1,Hypertension,Cardiology
+1,0,1,1,0,0,1,0,1,1,Hypertension,Cardiology
+1,0,1,1,1,1,1,0,0,0,Hepatitis B,Gastroenterology
+1,0,0,0,1,1,0,1,0,1,Hepatitis B,Gastroenterology
+1,0,0,1,1,1,0,1,1,0,Hepatitis B,Gastroenterology
+0,0,0,1,1,1,0,1,0,0,Hepatitis B,Gastroenterology
+0,0,1,1,1,1,1,1,0,0,Hepatitis B,Gastroenterology
+0,0,0,0,0,1,0,0,0,0,Impetigo,Dermatology
+0,1,0,0,0,0,1,0,1,0,Impetigo,Dermatology
+0,0,1,0,0,0,1,0,0,0,Impetigo,Dermatology
+1,0,0,1,0,1,1,0,0,0,Impetigo,Dermatology
+0,0,0,0,0,0,1,1,1,0,Impetigo,Dermatology
+0,1,0,1,0,1,0,1,0,1,Chronic cholestasis,Gastroenterology
+0,1,0,1,0,1,0,0,0,0,Chronic cholestasis,Gastroenterology
+0,1,0,0,0,1,0,0,1,0,Chronic cholestasis,Gastroenterology
+0,1,1,1,0,1,0,1,1,1,Chronic cholestasis,Gastroenterology
+1,0,0,0,0,1,0,0,0,1,Chronic cholestasis,Gastroenterology
+0,1,0,1,0,1,1,0,1,0,Hepatitis C,Gastroenterology
+1,1,0,1,1,1,0,0,1,1,Hepatitis C,Gastroenterology
+0,1,0,1,1,0,0,0,1,0,Hepatitis C,Gastroenterology
+0,0,0,1,1,0,0,0,1,0,Hepatitis C,Gastroenterology
+0,1,0,1,1,0,0,1,1,0,Hepatitis C,Gastroenterology
+1,0,1,1,1,1,1,0,0,0,Typhoid,Infectious Disease
+0,0,1,1,1,0,0,1,0,1,Typhoid,Infectious Disease
+0,1,0,1,1,0,0,1,0,0,Typhoid,Infectious Disease
+0,0,1,1,1,0,0,1,0,0,Typhoid,Infectious Disease
+0,0,0,1,1,0,0,1,0,1,Typhoid,Infectious Disease
+0,0,0,0,0,0,0,1,1,1,Dimorphic hemorrhoids(piles),Proctology
+0,0,0,1,0,0,1,1,1,1,Dimorphic hemorrhoids(piles),Proctology
+1,0,0,0,0,0,1,0,0,0,Dimorphic hemorrhoids(piles),Proctology
+0,0,0,0,0,0,1,0,1,1,Dimorphic hemorrhoids(piles),Proctology
+0,0,0,0,0,0,1,1,1,1,Dimorphic hemorrhoids(piles),Proctology
+0,1,0,1,1,1,0,0,0,1,Vertigo (Benign paroxysmal Positional Vertigo),Otolaryngology
+1,0,0,1,0,1,0,0,0,1,Vertigo (Benign paroxysmal Positional Vertigo),Otolaryngology
+0,0,1,1,0,1,0,0,0,1,Vertigo (Benign paroxysmal Positional Vertigo),Otolaryngology
+1,0,0,1,0,1,0,0,0,1,Vertigo (Benign paroxysmal Positional Vertigo),Otolaryngology
+0,1,0,0,0,1,1,0,0,1,Vertigo (Benign paroxysmal Positional Vertigo),Otolaryngology
+1,0,1,0,0,0,1,1,1,1,Cervical spondylosis,Orthopedics
+0,0,1,1,0,1,0,1,1,1,Cervical spondylosis,Orthopedics
+0,0,1,0,1,0,0,0,1,0,Cervical spondylosis,Orthopedics
+1,1,1,1,1,0,0,0,1,1,Cervical spondylosis,Orthopedics
+1,0,1,0,0,0,0,0,1,0,Cervical spondylosis,Orthopedics
+1,0,0,0,0,0,1,1,1,1,Tuberculosis,Pulmonology
+1,1,0,1,1,0,1,1,1,0,Tuberculosis,Pulmonology
+1,0,1,0,1,0,0,1,1,0,Tuberculosis,Pulmonology
+0,1,0,0,1,0,0,1,1,0,Tuberculosis,Pulmonology
+1,0,0,0,0,1,1,0,0,1,Tuberculosis,Pulmonology
+1,1,0,1,0,1,1,0,0,0,Hyperthyroidism,Endocrinology
+1,0,1,1,0,0,0,1,0,0,Hyperthyroidism,Endocrinology
+1,0,0,0,0,0,0,1,1,0,Hyperthyroidism,Endocrinology
+0,1,0,1,0,1,0,0,0,0,Hyperthyroidism,Endocrinology
+1,1,0,0,0,1,0,1,0,0,Hyperthyroidism,Endocrinology
+0,1,0,0,0,1,0,0,0,1,Malaria,Infectious Disease
+1,1,0,0,0,1,0,1,1,1,Malaria,Infectious Disease
+0,1,1,0,0,0,0,1,0,1,Malaria,Infectious Disease
+0,1,1,0,0,1,0,1,0,1,Malaria,Infectious Disease
+1,1,0,0,0,1,0,0,1,1,Malaria,Infectious Disease
+0,1,0,1,0,1,0,1,1,1,Gastroenteritis,Gastroenterology
+0,1,0,1,0,0,0,1,1,0,Gastroenteritis,Gastroenterology
+0,1,0,1,0,1,0,0,1,0,Gastroenteritis,Gastroenterology
+0,1,0,1,0,1,0,1,0,1,Gastroenteritis,Gastroenterology
+0,0,0,1,1,1,0,1,1,0,Gastroenteritis,Gastroenterology
+0,0,0,1,0,0,0,0,1,1,Osteoarthritis,Orthopedics
+0,1,1,0,0,0,1,1,1,1,Osteoarthritis,Orthopedics
+1,0,0,0,0,0,0,1,1,1,Osteoarthritis,Orthopedics
+1,0,0,0,1,0,0,1,0,1,Osteoarthritis,Orthopedics
+0,0,0,0,0,0,0,1,1,1,Osteoarthritis,Orthopedics
+1,0,1,1,1,1,0,1,1,1,Heart attack,Cardiology
+0,1,1,1,0,1,0,1,1,0,Heart attack,Cardiology
+0,0,0,1,0,1,0,0,1,1,Heart attack,Cardiology
+0,0,1,1,0,1,1,0,0,0,Heart attack,Cardiology
+0,0,1,0,1,1,0,0,0,0,Heart attack
+0,0,0,1,0,0,0,1,1,0,Dengue,Infectious Disease
+0,1,1,1,0,0,1,1,1,0,Dengue,Infectious Disease
+0,1,0,1,0,1,0,1,0,0,Dengue,Infectious Disease
+0,0,1,1,0,0,1,1,1,0,Dengue,Infectious Disease
+0,0,1,1,0,0,1,0,1,0,Dengue,Infectious Disease
+0,1,0,0,0,1,0,0,0,0,Pneumonia,Pulmonology
+1,1,1,0,0,1,1,1,1,0,Pneumonia,Pulmonology
+1,1,0,1,0,1,0,0,0,0,Pneumonia,Pulmonology
+1,1,0,1,0,1,0,0,0,0,Pneumonia,Pulmonology
+1,1,1,1,0,1,0,0,0,1,Pneumonia,Pulmonology
+1,0,0,0,1,0,0,0,0,1,Urinary tract infection,Urology
+1,0,0,0,0,0,1,1,1,0,Urinary tract infection,Urology
+1,0,0,0,0,1,1,0,1,1,Urinary tract infection,Urology
+0,0,0,0,1,0,1,0,0,0,Urinary tract infection,Urology
+0,0,0,0,1,1,0,0,1,0,Urinary tract infection,Urology
+0,1,1,1,1,0,0,1,0,0,Hypoglycemia,Endocrinology
+0,1,1,1,0,0,1,1,1,1,Hypoglycemia,Endocrinology
+0,1,1,1,0,0,0,1,0,1,Hypoglycemia,Endocrinology
+0,0,1,1,0,0,0,1,1,0,Hypoglycemia,Endocrinology
+0,1,1,1,0,0,0,1,0,1,Hypoglycemia,Endocrinology
+0,1,1,0,0,0,0,1,1,0,Bronchial Asthma,Pulmonology
+0,0,1,0,1,0,0,1,0,0,Bronchial Asthma,Pulmonology
+0,1,0,0,0,0,0,1,0,1,Bronchial Asthma,Pulmonology
+0,1,1,0,0,0,0,1,1,1,Bronchial Asthma,Pulmonology
+1,1,1,0,0,0,1,0,0,0,Bronchial Asthma,Pulmonology
+0,0,0,1,1,0,0,1,0,1,Arthritis,Rheumatology
+0,0,0,1,1,0,0,1,0,0,Arthritis,Rheumatology
+1,0,0,1,1,0,0,1,1,0,Arthritis,Rheumatology
+0,0,1,1,1,1,0,1,0,0,Arthritis,Rheumatology
+0,1,0,1,0,1,0,1,0,1,Arthritis,Rheumatology
+0,1,1,1,0,0,1,1,0,1,Hepatitis D,Gastroenterology
+0,0,0,1,0,0,1,1,0,1,Hepatitis D,Gastroenterology
+0,1,1,0,0,0,1,1,0,1,Hepatitis D,Gastroenterology
+0,1,0,0,0,0,1,0,0,1,Hepatitis D,Gastroenterology
+0,1,0,0,0,0,1,1,0,1,Hepatitis D,Gastroenterology
+0,1,1,0,0,1,0,1,1,1,Hypothyroidism,Endocrinology
+0,0,1,0,0,1,0,1,0,1,Hypothyroidism,Endocrinology
+0,0,0,0,0,1,1,1,0,1,Hypothyroidism,Endocrinology
+0,0,1,0,0,1,1,1,0,1,Hypothyroidism,Endocrinology
+0,1,0,0,0,1,1,1,1,1,Hypothyroidism,Endocrinology
+1,0,1,0,1,1,0,1,1,1,Acne,Dermatology
+0,0,1,0,0,1,0,1,1,0,Acne,Dermatology
+0,0,0,0,0,1,1,1,0,0,Acne,Dermatology
+0,0,0,0,0,1,0,1,1,0,Acne,Dermatology
+0,0,0,0,0,1,0,1,1,1,Acne,Dermatology
+0,1,1,0,0,1,0,0,1,1,GERD,Gastroenterology
+0,0,0,0,0,1,0,0,0,1,GERD,Gastroenterology
+0,0,0,0,0,1,0,0,1,1,GERD,Gastroenterology
+0,0,1,0,0,0,1,0,1,0,GERD,Gastroenterology
+0,1,0,0,1,1,0,0,0,0,GERD,Gastroenterology
+0,1,1,0,0,0,1,0,0,0,Peptic ulcer disease,Gastroenterology
+0,1,0,0,0,0,1,0,1,0,Peptic ulcer disease,Gastroenterology
+0,1,1,1,1,0,1,0,1,0,Peptic ulcer disease,Gastroenterology
+0,1,1,0,0,0,1,1,0,0,Peptic ulcer disease,Gastroenterology
+0,1,1,0,1,1,0,0,0,0,Peptic ulcer disease,Gastroenterology
+0,0,0,1,1,1,0,1,1,0,Psoriasis,Dermatology
+1,0,0,1,0,0,0,1,1,0,Psoriasis,Dermatology
+0,0,0,1,0,1,0,1,1,0,Psoriasis,Dermatology
+0,0,1,1,1,0,1,1,0,0,Psoriasis,Dermatology
+1,0,0,1,0,0,0,1,1,0,Psoriasis,Dermatology
+0,1,1,1,1,0,0,0,1,1,Drug Reaction,Allergy & Immunology
+0,0,0,1,1,0,1,1,0,1,Drug Reaction,Allergy & Immunology
+0,0,1,1,0,1,1,0,0,1,Drug Reaction,Allergy & Immunology
+0,1,1,1,0,1,1,1,0,1,Drug Reaction,Allergy & Immunology
+0,0,0,1,1,1,1,0,1,1,Drug Reaction,Allergy & Immunology
+1,0,1,0,0,0,0,0,0,1,Diabetes,Endocrinology
+1,0,0,1,0,0,0,0,0,1,Diabetes,Endocrinology
+1,0,0,1,0,0,0,0,1,1,Diabetes,Endocrinology
+1,0,1,0,1,0,0,0,0,1,Diabetes,Endocrinology
+1,0,0,0,0,1,1,0,0,1,Diabetes,Endocrinology
+0,1,0,1,1,0,0,0,0,0,Varicose veins,Vascular Surgery
+1,1,0,1,0,0,1,1,0,0,Varicose veins,Vascular Surgery
+1,1,0,1,1,0,0,0,0,1,Varicose veins,Vascular Surgery
+0,1,1,1,1,0,0,1,0,0,Varicose veins,Vascular Surgery
+0,0,0,1,1,0,0,1,0,0,Varicose veins,Vascular Surgery
+1,1,1,1,0,0,0,0,1,1,Hepatitis A,Gastroenterology
+1,0,1,1,1,1,0,0,1,1,Hepatitis A,Gastroenterology
+1,0,1,0,0,1,0,1,1,1,Hepatitis A,Gastroenterology
+1,0,1,0,1,1,0,0,1,1,Hepatitis A,Gastroenterology
+1,0,1,0,0,1,0,0,1,1,Hepatitis A,Gastroenterology
+1,0,1,0,0,1,0,0,1,0,Hepatitis E,Gastroenterology
+0,0,1,0,0,0,1,1,1,0,Hepatitis E,Gastroenterology
+1,0,0,1,0,0,1,0,1,0,Hepatitis E,Gastroenterology
+1,0,1,1,1,1,0,1,1,0,Hepatitis E,Gastroenterology
+1,0,0,1,0,1,1,0,1,0,Hepatitis E,Gastroenterology
+0,0,0,1,1,0,1,0,0,1,Migraine,Neurology
+0,1,0,0,1,0,0,0,0,1,Migraine,Neurology
+1,0,0,0,1,0,1,1,0,0,Migraine,Neurology
+0,0,0,1,1,0,1,1,0,1,Migraine,Neurology
+0,0,0,1,1,0,1,1,0,0,Migraine,Neurology
+0,0,0,0,0,1,0,0,1,1,Allergy,Allergy & Immunology
+0,0,0,0,0,1,0,1,0,1,Allergy,Allergy & Immunology
+0,0,0,0,0,1,0,0,0,1,Allergy,Allergy & Immunology
+1,0,0,0,0,1,0,1,0,1,Allergy,Allergy & Immunology
+0,0,1,1,0,1,0,1,0,0,Allergy,Allergy & Immunology
+0,0,0,1,1,0,1,0,0,1,Jaundice,Gastroenterology
+0,1,0,0,1,0,0,0,0,0,Jaundice,Gastroenterology
+0,0,0,0,1,0,1,1,0,0,Jaundice,Gastroenterology
+0,0,0,1,1,0,0,0,0,0,Jaundice,Gastroenterology
+0,0,0,1,1,0,0,0,0,1,Jaundice,Gastroenterology
+0,1,1,0,0,1,1,1,1,0,AIDS,Infectious Disease
+0,1,0,0,0,1,0,1,0,0,AIDS,Infectious Disease
+0,1,1,0,0,1,1,1,0,1,AIDS,Infectious Disease
+1,1,1,0,1,1,1,1,0,0,AIDS,Infectious Disease
+0,1,1,0,0,0,0,1,0,0,AIDS,Infectious Disease
+1,1,0,1,1,1,0,0,0,1,Alcoholic hepatitis,Gastroenterology
+1,0,0,0,0,0,0,0,0,1,Alcoholic hepatitis,Gastroenterology
+1,0,0,0,1,0,1,0,0,1,Alcoholic hepatitis,Gastroenterology
+1,0,1,0,0,0,0,0,0,1,Alcoholic hepatitis,Gastroenterology
+1,0,0,0,1,0,0,0,0,1,Alcoholic hepatitis,Gastroenterology
