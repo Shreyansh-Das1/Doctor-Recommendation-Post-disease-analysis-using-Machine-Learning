@@ -14,7 +14,7 @@ except Exception as e:
 SYMPTOM_COLUMNS = ['fever', 'headache', 'nausea', 'vomiting', 'fatigue','joint_pain', 'skin_rash', 'cough', 'weight_loss', 'yellow_eyes']
 
 @app.route('/predict', methods=['POST'])
-def predict():
+def predict(boolean[] arr):
     try:
         data = request.get_json(force=True)
         symptoms_input = data.get('symptoms', {}) 
